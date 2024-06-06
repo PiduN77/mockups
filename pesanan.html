@@ -271,163 +271,456 @@
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <div class="row">
-                <div class="col-xl-3">
-                    <div class="card">
-                        <div class="card-header bg-transparent">
-                            <div class="row align-items-center">
+                <div class="col-xl-12">
+                    <div class="row">
+                        <div class="nav-wrapper position-relative end-0 mt-3">
+                            <ul class="nav nav-tabs nav-fill p-1" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link mb-0 px-0 py-2 active" id="home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#semua" role="tab" type="button" aria-controls="semua"
+                                        aria-selected="true" style="color: #495057;">
+                                        <i class="ni ni-badge text-sm me-2"></i> Semua
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mb-0 px-0 py-2" data-bs-toggle="tab" href="#belumbayar"
+                                        role="tab" aria-controls="belumbayar" aria-selected="false"
+                                        style="color: #495057;">
+                                        <i class="ni ni-laptop text-sm me-2"></i> Belum Bayar
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mb-0 px-0 py-2" data-bs-toggle="tab" href="#sedangdikemas"
+                                        role="tab" aria-controls="sedangdikemas" aria-selected="false"
+                                        style="color: #495057;">
+                                        <i class="ni ni-laptop text-sm me-2"></i> Sedang Dikemas
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mb-0 px-0 py-2" data-bs-toggle="tab" href="#dikirim" role="tab"
+                                        aria-controls="dikirim" aria-selected="false" style="color: #495057;">
+                                        <i class="ni ni-laptop text-sm me-2"></i> Dikirm
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mb-0 px-0 py-2" data-bs-toggle="tab" href="#selesai" role="tab"
+                                        aria-controls="code" aria-selected="false" style="color: #495057;">
+                                        <i class="ni ni-laptop text-sm me-2"></i> Selesai
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mb-0 px-0 py-2" data-bs-toggle="tab" href="#dibatalkan"
+                                        role="tab" aria-controls="code" aria-selected="false" style="color: #495057;">
+                                        <i class="ni ni-laptop text-sm me-2"></i> Dibatalkan
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="semua" role="tabpanel"
+                                aria-labelledby="semua-tab">
+                                <div class="row mb-3">
+                                    <div class="col-xl-12">
+                                        <div class="card">
+                                            <div class="card-header bg-transparent border-bottom pb-0">
+                                                <div class="row align-items-center">
+                                                    <div class="col-9">
+                                                        <span class="h6 ps-2 ls-1">NIKE Indonesia </span>
+                                                    </div>
+                                                    <div class="col-3 text-end">
+                                                        <p class="ps-2 ls-1">INV/240601/21A01U24</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body pt-1 pb-0">
+                                                <div class="mt-3">
+                                                    <div class="row">
+                                                        <div class="col-lg-1 ml--5">
+                                                            <img src="Template/assets/img/sepatu1.jpg" alt=""
+                                                                class="w-100 h-75 border">
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <span class="my-0 h6">
+                                                                NIKE Sepatu warna coklat ukuran 38
+                                                            </span>
+                                                            <br>
+                                                            <span class="text-sm">1 barang x Rp 200.000</span>
+                                                        </div>
+                                                        <div class="col-lg-2 text-end">
+                                                            <span class="text-sm">Total Belanja</span>
+                                                            <h6 class="h6 mb-0">Rp 220.000</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer pt-0 pb-2">
+                                                <div class="row">
+                                                    <div class="col-xl-6 offset-xl-6 text-end">
+                                                        <a href="" class="btn btn-primary">Hubungi Penjual</a>
+                                                        <a href="" class="btn btn-outline-primary">Batalkan Pesanan</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-xl-12">
+                                        <div class="card">
+                                            <div class="card-header bg-transparent border-bottom pb-0">
+                                                <div class="row align-items-center">
+                                                    <div class="col-9">
+                                                        <span class="h6 ps-2 ls-1">ADIDAS Indonesia </span>
+                                                    </div>
+                                                    <div class="col-3 text-end">
+                                                        <p class="ps-2 ls-1">INV/240601/21A01U24</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body pt-1 pb-0">
+                                                <div class="mt-3">
+                                                    <div class="row">
+                                                        <div class="col-lg-1 ml--5">
+                                                            <img src="Template/assets/img/product3.jpg" alt=""
+                                                                class="w-100 h-75 border">
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <span class="my-0 h6">
+                                                                ADIDAS Sepatu Anak warna putih
+                                                            </span>
+                                                            <br>
+                                                            <span class="text-sm">1 barang x Rp 140.000</span>
+                                                        </div>
+                                                        <div class="col-lg-2 text-end">
+                                                            <span class="text-sm">Total Belanja</span>
+                                                            <h6 class="h6 mb-0">Rp 152.000</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer pt-0 pb-2">
+                                                <div class="row">
+                                                    <div class="col-xl-6 offset-xl-6 text-end">
+                                                        <a href="" class="btn btn-primary">Detail Transaksi</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="belumbayar" role="tabpanel" aria-labelledby="belumbayar-tab">
+                                <div class="row mb-3">
+                                    <div class="col-xl-12">
+                                        <div class="card">
+                                            <div class="card-header bg-transparent border-bottom pb-0">
+                                                <div class="row align-items-center">
+                                                    <div class="col-9">
+                                                        <span class="h6 ps-2 ls-1">NIKE Indonesia </span>
+                                                    </div>
+                                                    <div class="col-3 text-end">
+                                                        <p class="ps-2 ls-1">INV/240601/21A01U24</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body pt-1 pb-0">
+                                                <div class="mt-3">
+                                                    <div class="row">
+                                                        <div class="col-lg-1 ml--5">
+                                                            <img src="Template/assets/img/sepatu1.jpg" alt=""
+                                                                class="w-100 h-75 border">
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <span class="my-0 h6">
+                                                                NIKE Sepatu warna coklat ukuran 38
+                                                            </span>
+                                                            <br>
+                                                            <span class="text-sm">1 barang x Rp 200.000</span>
+                                                        </div>
+                                                        <div class="col-lg-2 text-end">
+                                                            <span class="text-sm">Total Belanja</span>
+                                                            <h6 class="h6 mb-0">Rp 220.000</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer pt-0 pb-2">
+                                                <div class="row">
+                                                    <div class="col-xl-6 offset-xl-6 text-end">
+                                                        <a href="" class="btn btn-primary">Hubungi Penjual</a>
+                                                        <a href="" class="btn btn-outline-primary">Batalkan Pesanan</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sedangdikemas" role="tabpanel"
+                                aria-labelledby="sedangdikemas-tab"></div>
+                            <div class="tab-pane fade" id="dikirim" role="tabpanel" aria-labelledby="dikirim-tab"></div>
+                            <div class="tab-pane fade" id="selesai" role="tabpanel" aria-labelledby="selesai-tab">
+                                <div class="row mb-3">
+                                    <div class="col-xl-12">
+                                        <div class="card">
+                                            <div class="card-header bg-transparent border-bottom pb-0">
+                                                <div class="row align-items-center">
+                                                    <div class="col-9">
+                                                        <span class="h6 ps-2 ls-1">ADIDAS Indonesia </span>
+                                                    </div>
+                                                    <div class="col-3 text-end">
+                                                        <p class="ps-2 ls-1">INV/240601/21A01U24</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body pt-1 pb-0">
+                                                <div class="mt-3">
+                                                    <div class="row">
+                                                        <div class="col-lg-1 ml--5">
+                                                            <img src="Template/assets/img/product3.jpg" alt=""
+                                                                class="w-100 h-75 border">
+                                                        </div>
+                                                        <div class="col-lg-9">
+                                                            <span class="my-0 h6">
+                                                                ADIDAS Sepatu Anak warna putih
+                                                            </span>
+                                                            <br>
+                                                            <span class="text-sm">1 barang x Rp 140.000</span>
+                                                        </div>
+                                                        <div class="col-lg-2 text-end">
+                                                            <span class="text-sm">Total Belanja</span>
+                                                            <h6 class="h6 mb-0">Rp 152.000</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer pt-0 pb-2">
+                                                <div class="row">
+                                                    <div class="col-xl-6 offset-xl-6 text-end">
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-bs-toggle="modal"
+                                                            data-bs-target="#detailtransaksi">Detail Transaksi</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer pt-3 mt-9" style="background: black;height: 50px;">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6 mb-lg-0 mb-4">
+                        <div class="copyright text-end text-sm text-white text-lg-end">
+                            © 2024, made with <i class="fa fa-heart"></i> by
+                            <a href="https://smkn11bdg.sch.id/" class="font-weight-bold text-white">SMKN 11
+                                TIM</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="detailtransaksi" tabindex="-1" role="dialog" aria-labelledby="detailTransaksiLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Detail Transaksi</h5>
+                    <button type="button" class="btn-close text-dark " data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card mb-3">
+                        <div class="card-body py-0">
+                            <div class="row">
+                                <div class="accordion-1">
+                                    <div class="row">
+                                        <div class="col-md-12 mx-auto">
+                                            <div class="accordion" id="accordionRental">
+                                                <div class="accordion-item mb-3">
+                                                    <h5 class="accordion-header" id="headingOne">
+                                                        <button class="accordion-button font-weight-bold collapsed ps-0"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#collapseOne" aria-expanded="false"
+                                                            aria-controls="collapseOne">
+                                                            Tracking Pesanan
+                                                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0 me-3"
+                                                                aria-hidden="true"></i>
+                                                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3"
+                                                                aria-hidden="true"></i>
+                                                        </button>
+                                                    </h5>
+                                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                                        aria-labelledby="headingOne" data-bs-parent="#accordionRental"
+                                                        style="">
+                                                        <div class="accordion-body text-sm opacity-8">
+                                                            <div class="card h-100">
+                                                                <div class="card-body p-3">
+                                                                    <div class="timeline timeline-one-side">
+                                                                        <div class="timeline-block mb-3">
+                                                                            <span class="timeline-step">
+                                                                                <i
+                                                                                    class="ni ni-bell-55 text-success text-gradient"></i>
+                                                                            </span>
+                                                                            <div class="timeline-content">
+                                                                                <h6
+                                                                                    class="text-dark text-sm font-weight-bold mb-0">
+                                                                                    $2400, Design changes</h6>
+                                                                                <p
+                                                                                    class="text-secondary font-weight-bold text-xs mt-1 mb-0">
+                                                                                    22 DEC 7:20 PM</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="timeline-block mb-3">
+                                                                            <span class="timeline-step">
+                                                                                <i
+                                                                                    class="ni ni-html5 text-danger text-gradient"></i>
+                                                                            </span>
+                                                                            <div class="timeline-content">
+                                                                                <h6
+                                                                                    class="text-dark text-sm font-weight-bold mb-0">
+                                                                                    New order #1832412</h6>
+                                                                                <p
+                                                                                    class="text-secondary font-weight-bold text-xs mt-1 mb-0">
+                                                                                    21 DEC 11 PM</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="timeline-block mb-3">
+                                                                            <span class="timeline-step">
+                                                                                <i
+                                                                                    class="ni ni-cart text-info text-gradient"></i>
+                                                                            </span>
+                                                                            <div class="timeline-content">
+                                                                                <h6
+                                                                                    class="text-dark text-sm font-weight-bold mb-0">
+                                                                                    Server payments for April</h6>
+                                                                                <p
+                                                                                    class="text-secondary font-weight-bold text-xs mt-1 mb-0">
+                                                                                    21 DEC 9:34 PM</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="timeline-block mb-3">
+                                                                            <span class="timeline-step">
+                                                                                <i
+                                                                                    class="ni ni-credit-card text-warning text-gradient"></i>
+                                                                            </span>
+                                                                            <div class="timeline-content">
+                                                                                <h6
+                                                                                    class="text-dark text-sm font-weight-bold mb-0">
+                                                                                    New card added for order #4395133
+                                                                                </h6>
+                                                                                <p
+                                                                                    class="text-secondary font-weight-bold text-xs mt-1 mb-0">
+                                                                                    20 DEC 2:20 AM</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="timeline-block mb-3">
+                                                                            <span class="timeline-step">
+                                                                                <i
+                                                                                    class="ni ni-key-25 text-primary text-gradient"></i>
+                                                                            </span>
+                                                                            <div class="timeline-content">
+                                                                                <h6
+                                                                                    class="text-dark text-sm font-weight-bold mb-0">
+                                                                                    Unlock packages for development</h6>
+                                                                                <p
+                                                                                    class="text-secondary font-weight-bold text-xs mt-1 mb-0">
+                                                                                    18 DEC 4:54 AM</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="timeline-block">
+                                                                            <span class="timeline-step">
+                                                                                <i
+                                                                                    class="ni ni-money-coins text-dark text-gradient"></i>
+                                                                            </span>
+                                                                            <div class="timeline-content">
+                                                                                <h6
+                                                                                    class="text-dark text-sm font-weight-bold mb-0">
+                                                                                    New order #9583120</h6>
+                                                                                <p
+                                                                                    class="text-secondary font-weight-bold text-xs mt-1 mb-0">
+                                                                                    17 DEC</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="col">
-                                    <img src="template/assets/img/sample.jpg" class="avatar" alt="">
-                                    <span class="h6 ps-2 ls-1 mb-1">Hafid</span>
-                                    <hr class="horizontal dark">
+                                    <span class="text-sm">No. Invoice</span>
+                                </div>
+                                <div class="col text-end">
+                                    <label> INV/20240612/7162A0F </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <span class="text-sm">Tanggal Pembelian</span>
+                                </div>
+                                <div class="col text-end">
+                                    <label> 21 Januari 2023 </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header bg-transparent border-bottom pb-0">
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <h6>Detail Produk</h6>
+                                </div>
+                                <div class="col-6 text-end">
+                                    <div class="h-100">
+                                        <span class="mb-1" role="button" href="toko.html">
+                                            ADIDAS Indonesia
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card-body">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-9">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="btn-group w-100">
-                                <button type="button" class="btn btn-outline-primary active">Semua</button>
-                                <button type="button" class="btn btn-outline-primary">Belum Bayar</button>
-                                <button type="button" class="btn btn-outline-primary">Sedang Dikemas</button>
-                                <button type="button" class="btn btn-outline-primary">Dikirim</button>
-                                <button type="button" class="btn btn-outline-primary">Selesai</button>
-                                <button type="button" class="btn btn-outline-primary">Dibatalkan</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-xl-12">
-                            <div class="card">
-                                <div class="card-header bg-transparent pb-0">
-                                    <div class="row align-items-center">
-                                        <div class="col">
-                                            <span class="h6 ps-2 ls-1 mb-lg-0">Nama Tokonya Tako </span>
-                                            <hr class="horizontal dark">
-                                        </div>
+                            <div class="mb-3">
+                                <div class="row">
+                                    <div class="col-lg-2 text-end p-0">
+                                        <img src="Template/assets/img/product3.jpg" alt="" class="avatar avatar-xl border">
                                     </div>
-                                </div>
-                                <div class="card-body">
-                                    <div class="mb-3">
-                                        <div class="row">
-                                            <div class="col-lg-2 ml--5">
-                                                <img src="Template/assets/img/sample.jpg" alt="" class="avatar">
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <span class="mb-0">Barang Produk 1111
-                                                </span>
-                                            </div>
-                                            <div class="col-lg-2 pr-0">
-                                                <h6 class="h6 mb-0">Rp 1.000.000</h6>
-                                            </div>
-                                        </div>
+                                    <div class="col-lg-6 text-truncate text-end">
+                                        <h7 class="mb-0 ml--5 text-truncate">ADIDAS Sepatu Anak warna putih strip hitam
+                                        </h7>
+                                        <span class="text-sm">800gr</span>
                                     </div>
-                                </div>
-                                <div class="card-footer border-top pb-2">
-                                    <div class="row">
-                                        <div class="col-xl-4 offset-xl-8">
-                                            <p class="text-end">Total pesanan : <strong class="h6">Rp 32.000</strong></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-xl-6 offset-xl-6 text-end">
-                                            <a href="" class="btn btn-primary">Hubungi Penjual</a>
-                                            <a href="" class="btn btn-outline-primary">Batalkan Pesanan</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-xl-12">
-                            <div class="card">
-                                <div class="card-header bg-transparent pb-0">
-                                    <div class="row align-items-center">
-                                        <div class="col">
-                                            <span class="h6 ps-2 ls-1 mb-lg-0">Nama Tokonya Tako </span>
-                                            <hr class="horizontal dark">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <div class="mb-3">
-                                        <div class="row">
-                                            <div class="col-lg-2 ml--5">
-                                                <img src="Template/assets/img/sample.jpg" alt="" class="avatar">
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <span class="mb-0">Barang Produk 1111
-                                                </span>
-                                            </div>
-                                            <div class="col-lg-2 pr-0">
-                                                <h6 class="h6 mb-0">Rp 1.000.000</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-footer border-top pb-2">
-                                    <div class="row">
-                                        <div class="col-xl-4 offset-xl-8">
-                                            <p class="text-end">Total pesanan : <strong class="h6">Rp 32.000</strong></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-xl-6 offset-xl-6 text-end">
-                                            <a href="" class="btn btn-primary">Hubungi Penjual</a>
-                                            <a href="" class="btn btn-outline-primary">Batalkan Pesanan</a>
-                                        </div>
+                                    <div class="col-lg-4 text-end">
+                                        <label class="h6 mb-0">Rp 1.000.000</label>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <footer class="footer pt-3  ">
-                    <div class="container-fluid">
-                        <div class="row align-items-center justify-content-lg-between">
-                            <div class="col-lg-6 mb-lg-0 mb-4">
-                                <div class="copyright text-center text-sm text-muted text-lg-start">
-                                    ©
-                                    <script>
-                                        document.write(new Date().getFullYear())
-                                    </script>,
-                                    made with <i class="fa fa-heart"></i> by
-                                    <a href="https://www.creative-tim.com" class="font-weight-bold"
-                                        target="_blank">Creative
-                                        Tim</a>
-                                    for a better web.
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-                                    <li class="nav-item">
-                                        <a href="https://www.creative-tim.com" class="nav-link text-muted"
-                                            target="_blank">Creative Tim</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted"
-                                            target="_blank">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="https://www.creative-tim.com/blog" class="nav-link text-muted"
-                                            target="_blank">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted"
-                                            target="_blank">License</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn bg-gradient-primary">Save changes</button>
+                </div>
             </div>
-    </main>
+        </div>
+    </div>
     <!--   Core JS Files   -->
     <script src="template/assets/js/core/popper.min.js"></script>
     <script src="template/assets/js/core/bootstrap.min.js"></script>
